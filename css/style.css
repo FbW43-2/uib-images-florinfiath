@@ -1,3 +1,5 @@
+
+
 img {
   border: 10px;
   border-color: grey;
@@ -8,17 +10,18 @@ img {
   margin-right: auto;
   width: 50%;
 }
-main{
-    display: grid;
+main {
+  display: grid;
 }
 
-.work-tools{
-  background-color:beige;
-  text-align:center;
+.work-tools {
+  background-color: beige;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
   position: relative;
- }
+}
 
- .work-tools-overlay{
+.work-tools-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,22 +30,33 @@ main{
   height: auto;
   width: auto;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.8s ease;
   font-size: 30px;
 }
- 
-.work-tools:hover .work-tools-overlay{
-  opacity: 1;
-  
-}
 
-.language{
+.work-tools:hover .work-tools-overlay {
+  opacity: 1;}
+
+.language {
   background-color: aquamarine;
   text-align: center;
- }
+}
 
- .communication{
+.communication {
   background-color: cornsilk;
   text-align: center;
-  
- }
+}
+
+.dna{
+    background-color: lightskyblue;
+}
+
+.dna > img {
+  border: 10px solid red;
+  border-radius: 50%;
+
+}
+
+.dna > img:hover {
+  border-radius: 10px;
+}
