@@ -60,3 +60,29 @@ main {
 .dna > img:hover {
   border-radius: 10px;
 }
+
+
+/* Image floating  */
+
+/* .work-tools >img{
+  float: right;
+
+} */
+
+.float1{
+   background-color: lightgrey;
+}
+
+.float1 >a>img{
+  float: right;
+}
+
+.float2{
+  background-color: aliceblue;
+}
+
+
+.float2 >a>img{
+  float: left;
+}
+
